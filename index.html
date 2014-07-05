@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Minefield</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="http://core.mikelat.com/default.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+		<link href="http://core.mikelat.com/cupertino/jquery.ui.css" rel="stylesheet" type="text/css" />
+		<link href="minefield.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="loading"><span><b>Loading...</b><img src="loading.gif" alt="" /><noscript>Needs javascript!</noscript></span></div>
+		<div id="header">
+			<span id="timer"></span><img src="timer.png" alt="" />
+			<button id="new">New Game</button><button id="select">Select an action</button>
+			<img src="mine.png" alt="" /><span id="mines"></span>
+		</div>
+		<div id="menu">
+			<button id="howtoplay">How to Play</button>
+			<button id="scores">High Scores</button>
+			<button id="about">About</button>
+		</div>
+		<div id="m"></div>
+		<div id="new-dialog" title="New Game">
+			<form action="#">
+				<ul>
+					<li><label>Rows:</label> <span id="mine-row-num"></span><div id="mine-row" class="slider"></div></li>
+					<li><label>Columns:</label> <span id="mine-col-num"></span><div id="mine-col" class="slider"></div></li>
+					<li><label>Mines:</label> <span id="mine-num"></span><div id="mine" class="slider"></div></li>
+				</ul>
+			</form>
+		</div>
+		<div id="winner-dialog" title="You win!">
+			You're the winner.
+		</div>
+		<div id="about-dialog" title="About">
+			Created by Michael Lat
+			<a class="db mb" href="http://www.mikelat.com" rel="external">http://www.mikelat.com</a>
+			Technologies used:
+			<ul class="mb">
+				<li>HTML5</li>
+				<li>jQuery</li>
+				<li>jQuery UI</li>
+			</ul>
+			This project is hosted on <a href="http://code.google.com/p/minefield-html" rel="external">Google Code</a> and is licensed under <a href="http://www.gnu.org/licenses/gpl.html" rel="external">GPLv3</a>.
+		</div>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+		<script src="minefield.js" type="text/javascript"></script>
+	</body>
+</html>

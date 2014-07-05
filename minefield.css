@@ -1,0 +1,29 @@
+body { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Verdana', 'Arial', 'sans-serif';  font-size: 12px; }
+form li { margin-bottom: 20px; }
+
+div.slider { margin: 5px 0; }
+
+#loading { background-color: #fff; width: 100%; height: 100%; position: absolute; z-index: 100; }
+#loading span { display: block; position: absolute; top: 40%; width: 100%; text-align: center; z-index: 101; font-size: 30px; }
+#loading img { display: block; margin: 0 auto; padding: 10px 0; }
+#loading b { font-size: 50px; font-weight: bold; display: block; }
+
+#m { text-align: center; white-space: nowrap; margin-top: 50px; }
+#m button span { position: absolute; padding: 0; line-height: 0; margin: 0; }
+#m button { margin:0; position: relative; }
+#m img {  }
+#m button.clicked { border: 1px solid #D5D6D7; background: #fff url(images/ui-bg_glass_80_d7ebf9_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #2779aa;  cursor: default!important; }
+
+#header { z-index: 5; border-bottom: 1px solid black; background-color: #ffffff; position: fixed; top: 0; height: 40px; white-space: nowrap; text-align: center; margin: 0 auto; width: 100%; display: none; }
+#header button { margin-top: 4px; }
+#header img { padding-left: 2px; position: relative; top: 7px; height: 22px; width: 22px; }
+#timer, #mines { width: 50px; height: 20px; display: inline-block; font-size: 16px; text-align: left; position: relative; top: 1px; }
+#timer { text-align: right; }
+
+#new { margin-left: 30px; width: 100px; margin-right: 0px; }
+#select { margin-right: 30px; width: 30px; }
+
+#menu { position: fixed; top: 35px; left: 50%; margin-left: -57px; width: 130px; z-index: 6; display: none; }
+#menu button { width: 130px; }
+
+#about-dialog ul { list-style-type: circle; margin-left: 20px; }
